@@ -1,4 +1,4 @@
-FROM eclipse-temurin:21.0.9_10-jdk 
+FROM eclipse-temurin:21.0.11_10-jdk-ubi10-minimal
 WORKDIR /demo
 COPY target/*.jar /demo/petclinic.jar
 EXPOSE 8080
